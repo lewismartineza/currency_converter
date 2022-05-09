@@ -36,7 +36,7 @@ nvm use -version-you-want-to-use
 
 Create an account and follow the next steps:
 * Copy the apikey of your account
-* Change the name of the file in the projectchivo ```.env_example``` to ```.env```
+* Change the name of the file in the project ```.env_example``` to ```.env```
 * Paste this apikey into the environment variable in the file ```.env ```
 
 -After these steps, the following command must be executed (this will launch the development server on port 3000):
