@@ -31,6 +31,14 @@ nvm use -version-you-want-to-use
  npm install
  ```
 
+-Once the project is fully prepared, you should go to the next page:
+- [Currencyapi register](https://app.currencyapi.com/register)
+
+Create an account and follow the next steps:
+* Copy the apikey of your account
+* Change the name of the file in the projectchivo ```.env_example``` to ```.env```
+* Paste this apikey into the environment variable in the file ```.env ```
+
 -After these steps, the following command must be executed (this will launch the development server on port 3000):
 ```bash
 npm run dev
